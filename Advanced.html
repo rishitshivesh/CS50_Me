@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="Advanced.css">
+<link rel="stylesheet" href="menu.css">
+<link rel="icon" type="image/png" href="g.png">
+
+<head>
+    <title>Search Images </title>
+</head>
+
+<body>
+
+
+    <ul id='menu'>
+        <li>
+            <a href='#'><img src="Menu.png" width=30px></a>
+            <ul style="margin-right: 16px;">
+                <!-- <li>
+                    <a href='#'><img src="Images/search.png" width=30px></a>
+                </li> -->
+                <li>
+                    <a href='index.html'><img src="search.png" width=30px></a>
+                </li>
+                <li>
+                    <a href='index.html'><img src="images.png" width=30px></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="main">
+
+        <div class="form-group"> <img src="logoas.png" class="google">
+            <br>
+            <div class="bord">
+
+                <p>Find pages with...</p>
+                <hr>
+                <form action="https://google.com/search" autocomplete="off">
+                    <div class="form-group">
+                        <label for="q">all these words:</label>
+                        <input type="text" class="form-control" name="q">
+                    </div>
+                    <div class="form-group">
+                        <label for="as_epq">this exact word or phrase:</label>
+                        <input type="text" class="form-control" name="as_epq">
+                    </div>
+                    <div class="form-group">
+                        <label for="as_oq">any of these words:</label>
+                        <input type="text" class="form-control" name="as_oq">
+                    </div>
+                    <div class="form-group">
+                        <label for="as_eq">none of these words:</label>
+                        <input type="text" class="form-control" name="as_eq">
+                    </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

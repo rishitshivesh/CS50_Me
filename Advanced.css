@@ -1,0 +1,44 @@
+.main {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.google {
+    width: 50%;
+    margin: 1.5%;
+}
+
+p {
+    font-size: 130%;
+}
+
+.bord {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+#search_bar {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 3cm;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    background: url(s.png) no-repeat scroll 15px 15px;
+    opacity: 0.95;
+}
+
+#search_bar:hover {
+    box-shadow: 0 2px 5px #D3D3D3;
+}
+
+#menu {
+    align-self: right;
+    flex-wrap: wrap;
+}

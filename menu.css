@@ -1,0 +1,65 @@
+#menu {
+    margin-top: 5px;
+    margin-left: 95%;
+}
+
+ul {
+    padding: 0;
+}
+
+ul>li {
+    display: inline-block;
+    text-align: right;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+li ul li {
+    float: none;
+}
+
+li ul {
+    display: none;
+    position: absolute;
+    z-index: 1
+}
+
+li:hover ul {
+    display: block;
+}
+
+
+/*DROPDOWN STYLING:*/
+
+#menu {
+    height: 30px
+}
+
+#menu a {
+    color: #024E67;
+    padding: 10px 15px 10px 15px;
+}
+
+#menu a:hover {
+    color: #ffffff;
+    transition: 300ms;
+}
+
+#menu li {
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    margin-left: -1px
+}
+
+#menu li:hover {
+    background-color: #4E78FF;
+    transition: 300ms;
+}
